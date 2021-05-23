@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Css Grids</title>
+		<style>
+			.wrapper{
+				display: grid;
+				grid-template-columns: 70% 30%;
+				grid-column-gap: 1em;
+				grid-row-gap: 1em;
+			}
+
+			.wrapper div {
+				background: #eee;
+				padding: 1em;
+			}
+			.wrapper div:nth-child(odd) {
+				background: #ddd;
+			}
+		</style>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Consequuntur repellat necessitatibus nobis, quibusdam doloribus
+                tenetur fugit tempora voluptate quasi hic minus nesciunt est
+                accusantium nostrum quia nam deleniti in libero iure numquam?
+                Doloribus unde, ipsum enim esse voluptatibus ipsam autem cumque
+                ullam rem atque exercitationem tempore, sint laudantium debitis?
+                Eos eius dolores necessitatibus magnam, ea soluta aliquid. Eaque
+                vero consequatur odio aliquid voluptas cupiditate, tempore
+                laborum nihil quaerat harum! Ratione ipsum cumque placeat
+                quisquam aut, praesentium maiores explicabo quo est.
+            </div>
+            <div>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Dolorum cum eum fuga deleniti pariatur inventore maxime rerum
+                porro fugiat et, quasi incidunt, iste quibusdam! Quae placeat
+                rem deleniti ut asperiores.
+            </div>
+            <div>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Consequuntur repellat necessitatibus nobis, quibusdam doloribus
+                tenetur fugit tempora voluptate quasi hic minus nesciunt est
+                accusantium nostrum quia nam deleniti in libero iure numquam?
+                Doloribus unde, ipsum enim esse voluptatibus ipsam autem cumque
+                ullam rem atque exercitationem tempore, sint laudantium debitis?
+                Eos eius dolores necessitatibus magnam, ea soluta aliquid. Eaque
+                vero consequatur odio aliquid voluptas cupiditate, tempore
+                laborum nihil quaerat harum! Ratione ipsum cumque placeat
+                quisquam aut, praesentium maiores explicabo quo est.
+            </div>
+            <div>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Dolorum cum eum fuga deleniti pariatur inventore maxime rerum
+                porro fugiat et, quasi incidunt, iste quibusdam! Quae placeat
+                rem deleniti ut asperiores.
+            </div>
+        </div>
+    </body>
+</html>
